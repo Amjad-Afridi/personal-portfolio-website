@@ -1,0 +1,112 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    width : 100% ;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)), url('https://media.istockphoto.com/photos/portrait-of-handsome-man-against-black-background-picture-id929063744?k=20&m=929063744&s=170667a&w=0&h=W8kmk8N_DXERqKw0aIqP9pmmq59J-SHsenooid33HpA=') ;
+    background-size : cover; 
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding-top : 30px ;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size : 30px ;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    color: aliceblue;
+}
+nav span{
+    color: rgb(232, 42, 42);
+}
+nav ul li{
+    padding: 20px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    text-emphasis: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+nav ul li:hover{
+    color:rgb(232, 42, 42);
+    transition: .5;
+}
+.btn{
+    background-color: rgb(232, 42, 42);
+    padding: 5px 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    text-emphasis: bold;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5 ;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    color:aliceblue ;
+    position: absolute;
+    top: 50% ;
+    left: 5% ;
+    /* transform: translateY(-50%); */
+}
+.content h1{
+    font-size: 75px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.content h3{
+    font-size: 25px;
+}
+.content h4 {
+    font-size: 20px;
+}
+.form-style form{
+    width: 310px;
+    max-width: 100% ;
+    position: relative;
+    margin-top: 20px
+}
+
+.input-style{
+    height: 30px;
+    outline: none;
+    width: 100%;
+    /* position: absolute; */
+    padding-left: 10px ;
+    display: inline-block;
+    color: rgb(232, 42, 42);
+    border: 1px solid rgb(232, 42, 42);
+    border-radius : 20px;
+}
+
+.input-style-btn{
+        position : absolute;
+        display: inline-block;
+        background-color: rgb(232, 42, 42);
+        color: aliceblue;
+        outline: none;
+        border: none;
+        margin: 0px;
+        top : 10% ;
+        padding: 6px 15px;
+        right: 0px;
+        border-radius: 20px;
+}
